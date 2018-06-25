@@ -10,7 +10,7 @@ import { EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-search',
   templateUrl: './InputBox.component.html',
-  styleUrls: ['./InputBox.component.css']
+  
 })
 export class InputBoxComponent implements OnInit {
   Items$: Observable<any>;
