@@ -1,0 +1,27 @@
+<div class="container">
+<div class='table-responsive'  >
+           <table datatable class="row-border hover"  *ngIf='Repos' >  
+            <thead>
+                  <tr>
+                      <th>repository name</th>
+                      <th>avatar </th>
+                      <th>bookmark button</th>
+                  </tr>
+              </thead>
+               <tbody>
+                 
+                   <tr *ngFor='let Repo of Repos'> 
+                      <td>{{ Repo.name }}</td>
+                      <td>{{ Repo.full_name }}</td>
+                      <td>
+                        <button class="btn btn-primary" (click)="AddToBookmarks(Repo)"  >
+                            AddToBookmrs   </button>
+
+                      </td>
+                    
+                  </tr>
+                  
+              </tbody>
+          </table> 
+      </div>
+</div>
