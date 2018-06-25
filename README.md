@@ -12,25 +12,25 @@ download the src code and run npm install
 
 There are 2 main modules
 
-first:search module
-search moudle: there are 3 components
+First :search module
+search module: there are 3 components
 2 basic (input , gridtable) 
 The input component send a generic text search term.
 The gridtable gets a generic any[] any show in a table.
-The Mainmodle is handle the reqests (team search) and sets the response the the gridtable as output 
+The Main module is handle the request (team search) and sets the response the gridtable as output 
 
 second :bookmarks modules
 2 components 
 bookmarks table the show the any []
-componenet that handle the reqest to the storage servie 
+component that handle the request to the storage service 
 
 2 services 
 First repo service 
-simple generics crud service upon a url from the mwthod params 
+simple generics crud service upon a URL from the method params 
 Second storage service 
 wrap crud over session storage 
 
-third party - jquery datatable
+third party - jQuery datatable
 
 ## Running the tests
 
